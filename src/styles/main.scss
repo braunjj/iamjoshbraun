@@ -1,0 +1,11 @@
+@use './foundation/colors';
+@use './foundation/fonts';
+
+html {
+  font-family: fonts.$primary-font;
+}
+
+p {
+  font-family: fonts.$primary-font;
+  color: colors.$base-color;
+}
