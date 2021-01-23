@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import Header from '../components/header';
-
-import '../styles/main.scss';
+import Layout from '../components/layout';
 
 export default class Home extends Component {
   constructor(props){
@@ -10,11 +8,10 @@ export default class Home extends Component {
 
   render() {
     return (
-      <div className="app">
-      <Header />
+      <Layout>
         <h1>Contact Page</h1>
         <p>This is your first page</p>
-      </div>
+      </Layout>
       )
     }
 }

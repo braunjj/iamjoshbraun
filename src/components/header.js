@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from "gatsby"
 
-import '../styles/main.scss';
-
 export default class Header extends Component {
   constructor(props){
     super(props);
