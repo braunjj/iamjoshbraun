@@ -1,5 +1,6 @@
 @use './foundation/colors';
 @use './foundation/fonts';
+@forward "./components/header";
 
 html {
   font-family: fonts.$primary-font;
@@ -7,5 +8,5 @@ html {
 
 p {
   font-family: fonts.$primary-font;
-  color: colors.$base-color;
+  color: colors.$black;
 }

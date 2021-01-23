@@ -12,7 +12,7 @@ export default class Home extends Component {
     return (
       <div className="app">
       <Header />
-        <h1>Welcome</h1>
+        <h1>Contact Page</h1>
         <p>This is your first page</p>
       </div>
       )
