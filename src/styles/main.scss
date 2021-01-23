@@ -1,9 +1,35 @@
 @use './foundation/colors';
 @use './foundation/fonts';
 @forward "./components/header";
+@forward "./components/footer";
 
 html {
   font-family: fonts.$primary-font;
+}
+
+::selection {
+  background: #ddd;
+  /* Safari */
+  color: #000;
+}
+::-moz-selection {
+  background: #ddd;
+  /* Firefox */
+  color: #000;
+}
+
+.divider {
+  margin: 24px 0;
+  display: block;
+  height: 0px;
+  width: 100%;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.app {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 24px;
 }
 
 p {

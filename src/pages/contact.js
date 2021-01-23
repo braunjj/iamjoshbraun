@@ -8,7 +8,7 @@ export default class Home extends Component {
 
   render() {
     return (
-      <Layout>
+      <Layout pageTitle="Contact">
         <h1>Contact Page</h1>
         <p>This is your first page</p>
       </Layout>

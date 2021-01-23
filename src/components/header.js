@@ -17,7 +17,7 @@ export default class Header extends Component {
             <Link to="/contact" id="contact" title="Contact" activeClassName="active">Contact</Link>
 
           </nav>
-  </div>
+      </div>
       )
     }
 }
