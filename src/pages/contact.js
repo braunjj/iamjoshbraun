@@ -10,7 +10,7 @@ export default class Home extends Component {
     return (
       <Layout pageTitle="Contact – Josh Braun">
         <h1>Say Hello 👋🏻</h1>
-        <p>Complete the form below or reach out via email at <a href="mailto:hello@iamjoshbraun.com">hello@iamjoshbraun.com</a>.</p>
+        <p>Complete the form below or reach out via email at <a href="mailto:josh@iamjoshbraun.com">josh@iamjoshbraun.com</a>.</p>
 
         <form name="contact" netlify action="contact#success">
         <p>
